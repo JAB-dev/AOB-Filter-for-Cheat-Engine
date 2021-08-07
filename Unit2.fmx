@@ -1,0 +1,105 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'JABs AOB Filter'
+  ClientHeight = 290
+  ClientWidth = 393
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lblInput1: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'First AOB'
+  end
+  object edtintput1: TEdit
+    Hint = 'Enter the last AOB you found here'
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 3
+    Position.Y = 33.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtinput2: TEdit
+    Hint = 'Enter the new AOB you found here'
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 2
+    Position.Y = 98.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 31.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtoutput: TEdit
+    Hint = 'Copy the result from me'
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 1
+    Position.Y = 223.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 31.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lbl2: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 65.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'Second AOB'
+  end
+  object lbloutput: TLabel
+    Align = Top
+    StyledSettings = [Family, FontColor]
+    Position.Y = 190.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 18.000000000000000000
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'Output AOB'
+  end
+  object btnReplaceChanges: TButton
+    Hint = 'Hit me to create output'
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 10.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 139.000000000000000000
+    Size.Width = 373.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Replace Differences with '#39'?'#39
+    TextSettings.Font.Size = 18.000000000000000000
+    OnClick = btnReplaceChangesClick
+  end
+  object chkAutoReplace: TCheckBox
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Position.Y = 254.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 7
+    Text = 'Replace First With Output '
+    TextSettings.Font.Size = 15.000000000000000000
+  end
+end

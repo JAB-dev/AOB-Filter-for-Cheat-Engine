@@ -1,0 +1,91 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 276
+  ClientWidth = 393
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object lblInput1: TLabel
+    Align = Top
+    StyledSettings = [Family, Size, FontColor]
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'First AOB'
+  end
+  object edtintput1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 3
+    Position.Y = 33.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtinput2: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 2
+    Position.Y = 98.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 31.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object edtoutput: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 1
+    Position.Y = 203.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 31.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object lbl2: TLabel
+    Align = Top
+    StyledSettings = [Family, Size, FontColor]
+    Position.Y = 65.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'Second AOB'
+  end
+  object lbloutput: TLabel
+    Align = Top
+    StyledSettings = [Family, Size, FontColor]
+    Position.Y = 170.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Style = [fsBold]
+    TextSettings.HorzAlign = Center
+    Text = 'Output AOB'
+  end
+  object btnReplaceChanges: TButton
+    Align = Top
+    Position.Y = 129.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Text = 'Replace Differences with ?'
+    OnClick = btnReplaceChangesClick
+  end
+  object chkAutoReplace: TCheckBox
+    Align = Top
+    StyledSettings = [Family, Style, FontColor]
+    Position.Y = 234.000000000000000000
+    Size.Width = 393.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 8
+    Text = 'Replace First With Output '
+    TextSettings.Font.Size = 15.000000000000000000
+  end
+end

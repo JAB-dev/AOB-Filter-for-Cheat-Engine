@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/07/29 19:34:51.000.210,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/06 21:24:52.000.218,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/07/20 20:00:02.000.471,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/10/30 00:57:53.000.819,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/10/30 01:00:20.000.062,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/10/30 01:33:34.000.564,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/05/23 11:29:20.000.501,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/08/07 21:31:17.000.071,=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/08/07 21:35:59.000.411,C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Aob replace Pascal\Unit2.pas</Transaction>
+    <Transaction>2021/08/07 21:35:59.000.411,C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Unit2.fmx=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Aob replace Pascal\Unit2.fmx</Transaction>
+    <Transaction>2021/08/07 21:56:25.000.118,C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\CasualnooB\Documents\Embarcadero\Studio\Projects\Aob replace Pascal\frmAOBFilter_p.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
